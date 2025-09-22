@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: rgb(5, 186, 186);
+}
+
+table, th, td {
+    border-radius: 2px;
+    background-color: bisque;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border: 2px solid rgb(0, 0, 0)
+}
+
+.content h1 {
+    font-size: 70px;
+    padding-left: 40px;
+}
+
+button {
+    border-radius: 5px;
+    position: fixed;
+    left: 90%;
+    bottom: 5%;
+}
+
+button a {
+    color: black;
+}

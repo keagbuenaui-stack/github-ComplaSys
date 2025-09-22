@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel = "stylesheet", href="{{url_for('static', filename='MyDesign.css')}}">
+    <title>Login Process</title>
+</head>
+<body>
+    <h1> Welcome to log in page!</h1>
+    <form action="/login_process" method="post">
+        <input type="text" name ="user_inp" placeholder="Username" required>
+        <br>
+        <input type="password" name ="pass_inp" placeholder="password" required>
+        <br>
+        <input type="submit" value="Login">
+    </form> 
+    <h6>No Account? register here!<a href="{{ url_for('register_page') }}"> Register</a></h6>
+
+</body>
+</html>
